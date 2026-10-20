@@ -20,3 +20,52 @@
 .footer-phone{color:#e3eaf5;text-decoration:none;font-weight:700}
 .footer-phone:hover{text-decoration:underline}
 @media(max-width:480px){.contact-actions{align-items:stretch;flex-direction:column;gap:16px}.contact-actions .btn{width:100%}.contact-actions .text-link{align-self:flex-start}}
+
+
+/* School identity and result portal CTA improvements */
+.brand-copy strong{font-size:clamp(15px,1.35vw,20px);font-weight:900;letter-spacing:.025em}
+.brand-copy small{font-size:11px;letter-spacing:.16em;font-weight:800}
+.brand{gap:13px}
+.brand-mark{width:50px;height:50px;font-size:17px}
+.school-name-hero{
+  font-family:Manrope,sans-serif;
+  font-size:clamp(2.5rem,5.2vw,4.9rem);
+  line-height:.98;
+  letter-spacing:-.055em;
+  font-weight:900;
+  color:var(--navy);
+  text-wrap:balance;
+  margin:18px 0 20px;
+  text-shadow:0 2px 0 rgba(255,255,255,.8);
+}
+.school-name-hero span{
+  display:inline-block;
+  color:#b78318;
+  font-size:.72em;
+  letter-spacing:.015em;
+  margin-top:8px;
+}
+.hero h1.hero-tagline{
+  font-size:clamp(1.8rem,3vw,2.8rem);
+  line-height:1.08;
+  letter-spacing:-.045em;
+  margin:0 0 18px;
+}
+.login-cta,.mobile-login{
+  background:var(--yellow)!important;
+  color:var(--navy)!important;
+  border:1px solid #efbd49!important;
+  font-weight:900!important;
+  border-radius:13px;
+  white-space:nowrap;
+}
+.login-cta{font-size:13px;padding:14px 17px}
+.login-cta span{color:var(--navy)}
+.mobile-login{padding:13px 14px!important;margin-top:8px}
+@media(max-width:800px){
+  .brand-copy strong{font-size:16px}
+  .brand-copy small{font-size:10px}
+  .brand-mark{width:44px;height:44px}
+  .school-name-hero{font-size:clamp(2.3rem,10vw,3.8rem);margin-top:12px}
+  .hero h1.hero-tagline{font-size:clamp(1.7rem,7vw,2.4rem)}
+}
